@@ -4,7 +4,7 @@ import { fetchGreeting } from '../redux/action_reducers';
 
 const Greeting = () => {
   const greeting = useSelector((state) => state.greetings);
-  console.log(greeting);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
