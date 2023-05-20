@@ -1,18 +1,16 @@
 import React from 'react';
-import {
-  BrowserRouter, Route, Routes,
-} from 'react-router-dom';
-import Greeting from './components/Greeting';
+import { Route, Routes } from 'react-router-dom';
+import Greeting from './components/greeting/Greeting';
+import './App.css';
 
-const App = () => (
-  <>
-    <BrowserRouter>
-      <h1>Hello React</h1>
-      <Routes>
-        <Route path="/" element={<Greeting />} />
-      </Routes>
-    </BrowserRouter>
-  </>
-);
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Greeting />} />
+    </Routes>
+
+  // <Greeting  />
+  );
+}
 
 export default App;
