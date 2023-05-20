@@ -40,23 +40,11 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
+
 <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -89,7 +77,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- gem install rails
+ npm install
 ```
 
 ### Setup
@@ -97,7 +85,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/akhror-valiev/react-app-rails-backend.git
+  git clone https://github.com/akhror-valiev/react-app-front-end.git
 
 ```
 
@@ -106,10 +94,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Blog-App
-  bundle install
-  rails db:create
-  rails db:migrate
+  cd react-app-front-end
+  npm install
 ```
 
 ### Usage
@@ -117,15 +103,9 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server
+  npm start
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
