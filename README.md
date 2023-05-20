@@ -1,8 +1,8 @@
-# react-app-rails-backend<a name="readme-top"></a>
+# react-app-rails-front-end<a name="readme-top"></a>
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
- 
+
   <br/>
 
   <h1><b>Hello Rails React App</b></h1>
@@ -43,20 +43,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -89,7 +76,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- gem install rails
+ npm install
 ```
 
 ### Setup
@@ -97,7 +84,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/akhror-valiev/react-app-rails-backend.git
+  git clone https://github.com/akhror-valiev/react-app-rails-front-end.git
 
 ```
 
@@ -106,10 +93,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Blog-App
-  bundle install
-  rails db:create
-  rails db:migrate
+  cd react-rails-front-end
+  npm install
 ```
 
 ### Usage
@@ -117,15 +102,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec spec
+  npm start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +134,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Htetaungkyaw71/Blog-App/issues).
+Feel free to check the [issues page](https://github.com/akhror-valiev).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
