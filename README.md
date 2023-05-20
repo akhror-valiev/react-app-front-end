@@ -182,4 +182,4 @@ I would like to thank microverse for supporting to do this project.
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<p align="right">(<a href="https://github.com/akhror-valiev/react-app-front-end">to see front-end repo</a>)</p>
+<p align="right">(<a href="https://github.com/akhror-valiev/react-app-rails-backend/tree/backend_greetings">to see backend-end repo</a>)</p>
